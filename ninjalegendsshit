@@ -146,7 +146,7 @@ MainSection:NewSlider("JumpPower", "Change your initial jump velocity.", 250, 50
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-MainSection:NewSlider("Walkspeed", "Change your movement magnitude.", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+MainSection:NewSlider("Walkspeed", "Change your movement magnitude.", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
